@@ -1,5 +1,5 @@
 .mainmenubtn {
-    background-color: skyblue;
+    background-color: salmon;
     color: white;
     border: none;
     cursor: pointer;
@@ -7,7 +7,7 @@
     margin-top:20px;
 }
 .mainmenubtn:hover {
-    background-color: blue;
+    background-color: rgb(235, 55, 11);
     }
 .dropdown {
     position: relative;
@@ -15,12 +15,12 @@
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: rgb(218, 87, 87);
     min-width: 200px;
     float: left;
 }
 .dropdown-child a {
-    color: blue;
+    color: black;
     padding: 20px;
     text-decoration: none;
     display: block;
@@ -28,7 +28,22 @@
 .dropdown:hover .dropdown-child {
     display: block;
 }
+.dropdown {
+    float: right
+}
+.image-fondo {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/18/4a/0d/4e/pizza-vegetariana.jpg");
+}
 
-.dropdown{
-    float: right;
+.cabecera{
+  color: rgb(70, 12, 12);
+  font-size: 20px;
+  height: 350px;
+  line-height: 350px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+.parrafos{
+    background-color: rgb(207, 135, 113);
 }
