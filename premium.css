@@ -1,0 +1,84 @@
+mainmenubtn {
+    background-color: salmon;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(235, 55, 11);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(218, 87, 87);
+    min-width: 200px;
+    float: left;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown {
+    float: right
+}
+.image-fondo {
+    background-image: url("https://www.irenemilito.it/wp-content/uploads/2018/01/69565-5025-mx.jpg");
+}
+
+.cabecera{
+  color: rgb(19, 17, 17);
+  font-size: 20px;
+  height: 240px;
+  line-height: 280px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+
+.ing{
+    text-align: center;
+}
+
+.prim {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .seg {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .terc {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
