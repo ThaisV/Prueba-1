@@ -1,4 +1,8 @@
-mainmenubtn {
+body{
+    background-color: wheat;
+}
+
+.mainmenubtn {
     background-color: salmon;
     color: white;
     border: none;
@@ -82,3 +86,33 @@ mainmenubtn {
     width: 13em;
   }
 
+  .ha {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: white;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .pizza1{
+      text-align: center;
+        }
+
+    .piña{
+        float: 5%;
+        height: 90px;
+        line-height: 10px;
+        text-align: center;
+        
+
+    }
+
+    .valor{
+        float: left;
+    }
+.precio{
+    float: left;
+}
