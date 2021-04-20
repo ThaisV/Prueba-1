@@ -7,7 +7,7 @@
     margin-top:20px;
 }
 .mainmenubtn:hover {
-    background-color: rgb(235, 55, 11);
+    background-color: rgb(11, 235, 104);
     }
 .dropdown {
     position: relative;
@@ -15,7 +15,7 @@
 }
 .dropdown-child {
     display: none;
-    background-color: rgb(218, 87, 87);
+    background-color: rgb(124, 155, 143);
     min-width: 200px;
     float: left;
 }
@@ -36,7 +36,7 @@
 }
 
 .cabecera{
-  color: rgb(19, 17, 17);
+  color: rgb(104, 69, 69);
   font-size: 20px;
   height: 168px;
   line-height: 200px;
@@ -58,12 +58,27 @@
     width: 13em;
   }
 
-  .seg0 {
+  .seg {
     list-style-type: none;
   }
   
   li {
     background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  .ha {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: white;
     float: left;
     text-align: center;
     width: 13em;
