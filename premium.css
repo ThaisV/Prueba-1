@@ -97,22 +97,29 @@ body{
     width: 13em;
   }
 
+  
   .pizza1{
-      text-align: center;
-        }
-
-    .piña{
-        float: 5%;
-        height: 90px;
-        line-height: 10px;
-        text-align: center;
-        
-
-    }
-
-    .valor{
-        float: left;
-    }
-.precio{
-    float: left;
+    text-align: center;
 }
+
+.pe{
+    text-align: center;
+}
+
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(228, 192, 216);
+    color: rgb(2, 2, 2);
+    padding: 15px;
+    text-align: center;
+  }
+ 
+div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
