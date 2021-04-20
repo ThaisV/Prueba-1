@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+.image-fondo {
+    background-image: url("https://fastly.4sqi.net/img/general/699x268/1016328_QSGJraESftT_2taE6WncR7r-Cv82tR4XWrKIGQ7hKwY.jpg");
+}
+
+.cabecera{
+  color: rgb(19, 17, 17);
+  font-size: 20px;
+  height: 260px;
+  line-height: 280px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+
+.ing{
+    text-align: center;
+}
+
+.prim {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .seg {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .terc {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ddd7cf;
+    float: left;
+    text-align: center;
+    width: 13em;
+  }
+
+  .ha {
+    list-style-type: none;
+  }
+
+  
+  .pizza1{
+    text-align: center;
+}
+
+.pe{
+    text-align: center;
+}
+
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(228, 192, 216);
+    color: rgb(2, 2, 2);
+    padding: 15px;
+    text-align: center;
+  }
+ 
+div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+
+.con{
+    text-align: center;
+}
