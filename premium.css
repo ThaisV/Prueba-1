@@ -123,3 +123,7 @@ div.noticia img.derecha {
   div.reset {
     clear: both;
   }
+
+.con{
+    text-align: center;
+}
